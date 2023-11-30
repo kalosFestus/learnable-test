@@ -1,0 +1,74 @@
+*,::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.fashion-content, nav, ul, .fb, .google, .apple, .twitter, .email, .phone{
+        display: flex;
+        list-style: none;
+        align-items: center;
+}
+
+nav{
+    justify-content: space-between;
+    padding: 2%;
+}
+
+ul{
+   width: 70%;
+   justify-content: space-around; 
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+
+.buy-now, .sign-up{
+    background-color: #E87A14; 
+    border-radius: 20px; 
+    color: #ffffff; 
+    padding: 10px 13px; 
+    font-size: 24px; 
+    line-height:36px; 
+    font-weight:500px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+.fashion-content{
+    padding: 2% 2% 2% 1%;
+}
+
+.fashion-desc{
+   align-self: center;
+}
+
+form img{
+    padding: 20px;
+    width: 18%;
+}
+
+.fb, .apple, .twitter, .email, .google, .phone, .email{
+    border: 1px solid #333333;
+    border-radius: 40px;
+    margin: 25px 40px;
+}
+
+
+
